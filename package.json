@@ -1,0 +1,27 @@
+{
+  "name": "@fireflyjs/share-connections",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aryaman1706/share-connections.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aryaman1706/share-connections/issues"
+  },
+  "homepage": "https://github.com/Aryaman1706/share-connections#readme",
+  "devDependencies": {
+    "@types/node": "^16.10.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "mongoose": "^6.0.7"
+  }
+}
