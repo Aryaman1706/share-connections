@@ -27,6 +27,8 @@ const main = async () => {
 
       childProcesses.forEach((cp) => {
         cp.on("message", (m: IReceivedMessage) => {
+          console.log(`received message in parent from ${cp.pid}`, { m });
+
           const text = new Text(cp, m.token);
 
           if (m.method === "create") {
